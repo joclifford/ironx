@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ironx/static/css/main.d1b05096.chunk.css",
+    "main.js": "/ironx/static/js/main.91d13cdc.chunk.js",
+    "main.js.map": "/ironx/static/js/main.91d13cdc.chunk.js.map",
+    "runtime-main.js": "/ironx/static/js/runtime-main.4435c0eb.js",
+    "runtime-main.js.map": "/ironx/static/js/runtime-main.4435c0eb.js.map",
+    "static/js/2.e1997513.chunk.js": "/ironx/static/js/2.e1997513.chunk.js",
+    "static/js/2.e1997513.chunk.js.map": "/ironx/static/js/2.e1997513.chunk.js.map",
+    "index.html": "/ironx/index.html",
+    "precache-manifest.be686be58c6e947065914dde8091a954.js": "/ironx/precache-manifest.be686be58c6e947065914dde8091a954.js",
+    "service-worker.js": "/ironx/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/ironx/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.e1997513.chunk.js.LICENSE.txt": "/ironx/static/js/2.e1997513.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ironx/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4435c0eb.js",
+    "static/js/2.e1997513.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.91d13cdc.chunk.js"
+  ]
+}
