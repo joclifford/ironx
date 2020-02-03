@@ -1,17 +1,24 @@
 import React from 'react';
-import clark from './images/clarky.jpg';
 import './App.css';
+import NavBar from './components/NavBar'
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import { Route, Switch } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>IronX Professionals</p>
-        <img src={clark} className="App-logo" alt="logo" />
-        
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <main>
+        <NavBar/>
+        <Switch>
+          <Route path='/' component={Home} exact/>
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
+      </main>
+    )
+ }
 }
 
 export default App;
