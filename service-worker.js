@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ironx/precache-manifest.9d6a5480d0fa832b77ba2f8ef078b765.js"
+  "/ironx/precache-manifest.05fa608c6d5a33a21fb20cf102642a13.js"
 );
 
 self.addEventListener('message', (event) => {
