@@ -4,7 +4,7 @@ import NavBar from './components/NavBar'
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
 class App extends React.Component {
   render() {
@@ -12,9 +12,10 @@ class App extends React.Component {
       <main>
         <NavBar/>
         <Switch>
-          <Route path='/' component={Home} exact/>
-          <Route path='/about' component={About} />
-          <Route path='/contact' component={Contact} />
+          <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact/>
+          <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
+          <Route path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
+          <Redirect from='*' to={process.env.PUBLIC_URL + '/'} />
         </Switch>
       </main>
     )
