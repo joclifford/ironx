@@ -1,14 +1,34 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
+.navHeader {
+  background-color: rgba(37, 44, 58,0);
+
+}
+
+.active {
+  color : red;
+}
+
+.navItemText {
+  color : white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.navBrandItemText {
+  color : white;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.navItemText:hover {
+  text-decoration: underline;
+}
+  
+.App-container {
+  background-color: #252c3a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,8 +37,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
