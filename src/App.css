@@ -3,12 +3,7 @@
 }
 
 .navHeader {
-  background-color: rgba(37, 44, 58,0);
-
-}
-
-.active {
-  color : red;
+  background-color: rgba(37, 44, 58,0.5);
 }
 
 .navItemText {
@@ -27,6 +22,10 @@
   text-decoration: underline;
 }
   
+.primaryBackGround {
+  background-color: #252c3a;
+}
+
 .App-container {
   background-color: #252c3a;
   min-height: 100vh;
@@ -36,4 +35,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+
+/*    Image Card Styles      */
+.imageCardText {
+  font-size:medium;
+}
+
+.gridRow {
+  margin-bottom: 100px;
 }
