@@ -7,6 +7,8 @@
 }
 
 .navItemText {
+  font-size: large;
+  font-weight: 500;
   color : white;
   cursor: pointer;
   margin-right: 10px;
@@ -26,8 +28,12 @@
   background-color: #252c3a;
 }
 
+.App {
+  width: 100%;
+}
+
 .App-container {
-  background-color: #252c3a;
+  background-color: #343e52;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,4 +51,9 @@
 
 .gridRow {
   margin-bottom: 100px;
+}
+
+.imageCard {
+  border-color: gray;
+  border-width: 10px;
 }
