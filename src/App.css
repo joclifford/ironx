@@ -3,15 +3,12 @@
 }
 
 .navHeader {
-  background-color: rgba(37, 44, 58,0);
-
-}
-
-.active {
-  color : red;
+  background-color: rgba(37, 44, 58,0.5);
 }
 
 .navItemText {
+  font-size: large;
+  font-weight: 500;
   color : white;
   cursor: pointer;
   margin-right: 10px;
@@ -27,8 +24,16 @@
   text-decoration: underline;
 }
   
-.App-container {
+.primaryBackGround {
   background-color: #252c3a;
+}
+
+.App {
+  width: 100%;
+}
+
+.App-container {
+  background-color: #343e52;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,4 +41,19 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+
+/*    Image Card Styles      */
+.imageCardText {
+  font-size:medium;
+}
+
+.gridRow {
+  margin-bottom: 100px;
+}
+
+.imageCard {
+  border-color: gray;
+  border-width: 10px;
 }
