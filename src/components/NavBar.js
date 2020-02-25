@@ -20,9 +20,6 @@ class NavBar extends React.Component {
                         <LinkContainer to={process.env.PUBLIC_URL + '/'} className="navItemText" activeClassName="active" exact>
                             <NavItem>Home</NavItem>
                         </LinkContainer>
-                        <LinkContainer to={process.env.PUBLIC_URL + '/home2'} className="navItemText" activeClassName="active" exact>
-                            <NavItem>Home 2</NavItem>
-                        </LinkContainer>
                         <LinkContainer to={process.env.PUBLIC_URL + '/about'} className="navItemText" activeClassName="active" exact>
                             <NavItem>About</NavItem>
                         </LinkContainer>

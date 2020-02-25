@@ -1,30 +1,24 @@
 import React from 'react';
 import ImageCard from '../ImageCard';
-import {Container, Row, Col} from 'react-bootstrap';
-import clark from '../../images/clarky.jpg'
+import {Container, Row} from 'react-bootstrap';
 import dumpTruck from '../../images/dumpTruck.jpg'
-import backyard from '../../images/backyard.jpg';
-import frontYard from '../../images/frontYard.jpg';
+import CarourselCard from '../CarouselCard';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
+
+
 let Home = function(){
        return (
          <div className="App" >
              <div className="App-container">
               <Container> 
-                <Row style={{marginBottom:"100px", marginTop:"50px", marginLeft:"2px;", marginRight:'2px;'}}>
-                  <Carousel infiniteLoop autoPlay swipeable={true}>
-                      <div>
-                        <img src={clark} alt="clark" styles={{width:'50%'}}/>
-                        <p className="legend">TEST</p>
-                      </div>
-                      <div>
-                        <img src={frontYard} alt="clark" />
-                      </div>
-                      <div>
-                        <img src={backyard} alt="clark" />
-                      </div>
-                    </Carousel>
+                <Row>
+                  <p className="homeSectionTitleText">Professional Driveway Work</p>
+                </Row>
+                <Row style={{marginBottom:"100px"}}>
+                  <CarourselCard imageKey='Job2'/>
+                </Row>
+                <Row >
+                  <CarourselCard imageKey='Job1'/>
                 </Row>
                  <Row style={{marginBottom:"100px", marginTop:"50px"}}>
                   <ImageCard animation="fade-up" img={dumpTruck} />

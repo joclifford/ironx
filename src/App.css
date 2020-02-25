@@ -20,6 +20,11 @@
   cursor: pointer;
 }
 
+.homeSectionTitleText {
+  color : white;
+  font-size: larger;
+}
+
 .navItemText:hover {
   text-decoration: underline;
 }
