@@ -2,7 +2,6 @@ import React from 'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { LinkContainer } from "react-router-bootstrap";
-import icon from '../images/icon1.png'
 
 
 class NavBar extends React.Component {
@@ -11,7 +10,7 @@ class NavBar extends React.Component {
             <Navbar sticky="top" scrolling="true" expand="lg" className="navHeader">
                 <Navbar.Brand >
                     <LinkContainer to={process.env.PUBLIC_URL + '/'} className="navBrandItemText">
-                        <NavItem><img alt="IronX" src={icon} style={{height:'50px',width:'50px'}}/></NavItem>
+                        <NavItem><img alt="IronX" src='/images/icon1.png' style={{height:'50px',width:'50px'}}/></NavItem>
                     </LinkContainer>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbar-light"/>
