@@ -1,29 +1,25 @@
 {
   "files": {
-    "main.css": "/ironx/static/css/main.11e5cbcf.chunk.css",
-    "main.js": "/ironx/static/js/main.f61d3ae3.chunk.js",
-    "main.js.map": "/ironx/static/js/main.f61d3ae3.chunk.js.map",
+    "main.css": "/ironx/static/css/main.0a77d0d6.chunk.css",
+    "main.js": "/ironx/static/js/main.6544304b.chunk.js",
+    "main.js.map": "/ironx/static/js/main.6544304b.chunk.js.map",
     "runtime-main.js": "/ironx/static/js/runtime-main.4435c0eb.js",
     "runtime-main.js.map": "/ironx/static/js/runtime-main.4435c0eb.js.map",
     "static/css/2.afe8df26.chunk.css": "/ironx/static/css/2.afe8df26.chunk.css",
-    "static/js/2.929b8bed.chunk.js": "/ironx/static/js/2.929b8bed.chunk.js",
-    "static/js/2.929b8bed.chunk.js.map": "/ironx/static/js/2.929b8bed.chunk.js.map",
+    "static/js/2.2ca83321.chunk.js": "/ironx/static/js/2.2ca83321.chunk.js",
+    "static/js/2.2ca83321.chunk.js.map": "/ironx/static/js/2.2ca83321.chunk.js.map",
     "index.html": "/ironx/index.html",
-    "precache-manifest.2988cb4508828ea066a4baa93a08bf5b.js": "/ironx/precache-manifest.2988cb4508828ea066a4baa93a08bf5b.js",
+    "precache-manifest.036feda7ba338fccda584ad8f1d20526.js": "/ironx/precache-manifest.036feda7ba338fccda584ad8f1d20526.js",
     "service-worker.js": "/ironx/service-worker.js",
     "static/css/2.afe8df26.chunk.css.map": "/ironx/static/css/2.afe8df26.chunk.css.map",
-    "static/css/main.11e5cbcf.chunk.css.map": "/ironx/static/css/main.11e5cbcf.chunk.css.map",
-    "static/js/2.929b8bed.chunk.js.LICENSE.txt": "/ironx/static/js/2.929b8bed.chunk.js.LICENSE.txt",
-    "static/media/backyard.jpg": "/ironx/static/media/backyard.7c982d05.jpg",
-    "static/media/clarky.jpg": "/ironx/static/media/clarky.c1e1d48d.jpg",
-    "static/media/dumpTruck.jpg": "/ironx/static/media/dumpTruck.fe97989b.jpg",
-    "static/media/frontYard.jpg": "/ironx/static/media/frontYard.06e390a1.jpg"
+    "static/css/main.0a77d0d6.chunk.css.map": "/ironx/static/css/main.0a77d0d6.chunk.css.map",
+    "static/js/2.2ca83321.chunk.js.LICENSE.txt": "/ironx/static/js/2.2ca83321.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4435c0eb.js",
     "static/css/2.afe8df26.chunk.css",
-    "static/js/2.929b8bed.chunk.js",
-    "static/css/main.11e5cbcf.chunk.css",
-    "static/js/main.f61d3ae3.chunk.js"
+    "static/js/2.2ca83321.chunk.js",
+    "static/css/main.0a77d0d6.chunk.css",
+    "static/js/main.6544304b.chunk.js"
   ]
 }
