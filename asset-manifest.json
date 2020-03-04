@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ironx/static/css/main.6e56393a.chunk.css",
-    "main.js": "/ironx/static/js/main.37289c38.chunk.js",
-    "main.js.map": "/ironx/static/js/main.37289c38.chunk.js.map",
+    "main.js": "/ironx/static/js/main.102afccb.chunk.js",
+    "main.js.map": "/ironx/static/js/main.102afccb.chunk.js.map",
     "runtime-main.js": "/ironx/static/js/runtime-main.4435c0eb.js",
     "runtime-main.js.map": "/ironx/static/js/runtime-main.4435c0eb.js.map",
     "static/css/2.558afbfe.chunk.css": "/ironx/static/css/2.558afbfe.chunk.css",
     "static/js/2.ffe9e686.chunk.js": "/ironx/static/js/2.ffe9e686.chunk.js",
     "static/js/2.ffe9e686.chunk.js.map": "/ironx/static/js/2.ffe9e686.chunk.js.map",
     "index.html": "/ironx/index.html",
-    "precache-manifest.092709d6bdc266c3c0110e7fdaf493a5.js": "/ironx/precache-manifest.092709d6bdc266c3c0110e7fdaf493a5.js",
+    "precache-manifest.14d6ccd2339e05c7768d57da625908fb.js": "/ironx/precache-manifest.14d6ccd2339e05c7768d57da625908fb.js",
     "service-worker.js": "/ironx/service-worker.js",
     "static/css/2.558afbfe.chunk.css.map": "/ironx/static/css/2.558afbfe.chunk.css.map",
     "static/css/main.6e56393a.chunk.css.map": "/ironx/static/css/main.6e56393a.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.558afbfe.chunk.css",
     "static/js/2.ffe9e686.chunk.js",
     "static/css/main.6e56393a.chunk.css",
-    "static/js/main.37289c38.chunk.js"
+    "static/js/main.102afccb.chunk.js"
   ]
 }
