@@ -9,19 +9,21 @@ import Images from '../utils/Images'
 
 let CarouselCard = function(props){
     let imagesToShow = [];
-    console.log(props.group)
+
     Images.forEach(function (item, index) {
         if (item.group === props.group){
             imagesToShow.push(item);
         }
     });
-    console.log(imagesToShow)
     return (
-        <Card style={{maxHeight: '20px !important'}}>
-            <Carousel showThumbs={false} centerMode centerSlidePercentage={80} infiniteLoop autoPlay swipeable={true} interval={3000}>
+        <Card >
+            {props.children}
+            <Carousel showThumbs={false} infiniteLoop autoPlay interval={7500}>
                 { 
-                  imagesToShow.map(({id, src, title, description}) =>             
-                      <img key={src} src={src} title={title} alt={description} />
+                  imagesToShow.map(({id, src, srcset, title, description}) =>   
+                      <div >          
+                        <img key={src} sizes="(min-width: 1000px) 4032px" src={src} srcset={srcset} title={title} alt={description} />
+                      </div>
                  )
                     
                 }
