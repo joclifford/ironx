@@ -10,7 +10,6 @@ class App extends React.Component {
   render() {
     return (
       <div style={{backgroundColor:'#252c3a'}}>
-        <NavBar/>
         <Switch>
           <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact/>
           <Route path={process.env.PUBLIC_URL + '/about'} component={About} />

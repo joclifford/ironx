@@ -3,62 +3,66 @@ import {Card, Row, Col} from 'react-bootstrap';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import ReactPageScroller from 'react-page-scroller';
+import NavBar from '../NavBar';
+import profiles from '../../utils/Profiles';
+
+
 
 let About = function(){
   AOS.init({
     mirror : true
   });
 
-  let profiles = [
-    {
-      name : 'Frank Goulding',
-      description: 'Frank Goulding Graduated from Western in 2017, and is a typical idiot. He basically coasted through university and spent most of his time smoking mary jane. Instrumental to the legalization in Canada, Frank once spent 4 days, with no food or water, outside of Justin Trudeau\'s house to convince him to make it part of his campaign. ',
-      img: '../images/FrankGoulding.jpg',
-      animation : 'slide-up'
-
-    },
-    {
-      name : 'Clark Bradley',
-      description: 'Clark loves his pizza. And Clark loves nothing more than eating pizza with STEAK. But thats not even his weirdest joy, he also loves wearing old shoes. Fun fact, he has never had a sip of beer.',
-      img: '../images/ClarkBradly.jpg',
-      animation : 'slide-up'
-    }
-  ]
-
   return (
-      <div className="ProfilePage">
-        <div className="ProfileContainer">
-          <Row flex="1" >
-            <Card className="ProfileCard" data-aos='slide-up' data-aos-delay="5" data-aos-duration="500" border="light">
-              <h3>
-                IronX
-              </h3>
-            </Card>
-          </Row>          
-          <Row>
-            {
-              profiles.map(({name, description, img, animation}) => 
-                <Col>
-                  <Card className="ProfileCard" data-aos={animation} data-aos-delay="5" data-aos-duration="500" border="light">
-                      <Row>
-                        <Col>
-                          <h3 className="underlined">{name}</h3>
-                        </Col>
-                      </Row>
-                      <Row style={{display:'flex',flexDirection: 'row'}}>                      
-                        <Col>
-                          <img src={img} alt=''/>
-                        </Col>
-                        <Col>
-                          {description}
-                        </Col>
-                      </Row>
-                  </Card>
-                </Col>                
-              )
-            }
-          </Row>
-        </div>
+    <div>
+      <NavBar/>
+      <ReactPageScroller renderAllPagesOnFirstRender={true}>
+          <div className="ProfilePage BackhoeBg">
+                <Card className="ProfileCard" data-aos='slide-up' data-aos-delay="5" data-aos-duration="500" border="light">
+                  <h3 className="CenterText underlined">
+                    <strong>Iron</strong> e<strong>X</strong>cavating
+                  </h3>
+                  <div>
+                    This is just a quick blurb about the company of Iron Excavating. Run by Clark Bradley and Frank Goulding, these two can provide excellent service and quality work for all excavating needs.
+                  </div>
+                </Card>          
+          </div>
+          <div className="ProfilePage BackhoeSiteBg">
+              <Card className="ProfileCard" >
+                  <Row>
+                    <Col>
+                      <h3 className="CenterText underlined">{profiles.frank.name}</h3>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>                
+                      <img src={profiles.frank.img} alt=''/>                    
+                    </Col>
+                    <Col>
+                      {profiles.frank.description}
+                    </Col>
+                  </Row>
+              </Card>
+          </div>
+          <div className="ProfilePage BackhoeBg">
+               <Card className="ProfileCard">
+                  <Row>
+                    <Col>
+                      <h3 className="CenterText underlined">{profiles.clark.name}</h3>
+                    </Col>
+                  </Row>
+                  <Row className="justify-content-md-center">
+                    <Col>
+                      <img src={profiles.clark.img} alt=''/>                      
+                    </Col>
+                    <Col>
+                      {profiles.clark.description}
+                    </Col>
+                  </Row>
+              </Card>
+          </div>
+        </ReactPageScroller>
       </div>
   )
 }

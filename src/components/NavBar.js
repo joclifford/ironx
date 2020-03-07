@@ -7,7 +7,7 @@ import { LinkContainer } from "react-router-bootstrap";
 class NavBar extends React.Component {
     render(){
         return (
-            <Navbar sticky="top" expand="sm" className="navHeader" collapseOnSelect={true}>
+            <Navbar expand="sm" className="navHeader" collapseOnSelect={true}>
                 <Navbar.Brand >
                     <LinkContainer to={process.env.PUBLIC_URL + '/'} className="navBrandItemText">
                         <NavItem><img alt="IronX" src='../images/icon1.png' style={{height:'50px',width:'50px'}}/></NavItem>
