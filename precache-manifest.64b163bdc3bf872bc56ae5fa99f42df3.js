@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a762bd2185f54a851bffe160a55c995d",
+    "revision": "18a5d84908f70e5acccc6d3f1880f5d7",
     "url": "/ironx/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ironx/static/css/2.9202c782.chunk.css"
   },
   {
-    "revision": "56f685998cea0bb18cea",
+    "revision": "3058ed91a175736b2875",
     "url": "/ironx/static/css/main.e375065b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ironx/static/js/2.d37b36cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56f685998cea0bb18cea",
-    "url": "/ironx/static/js/main.1f76ab28.chunk.js"
+    "revision": "3058ed91a175736b2875",
+    "url": "/ironx/static/js/main.b17014fd.chunk.js"
   },
   {
     "revision": "f26016dd39de9a06588d",
