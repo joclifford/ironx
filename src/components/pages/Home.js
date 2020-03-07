@@ -4,7 +4,6 @@ import NavBar from '../NavBar'
 
 import ReactPageScroller from 'react-page-scroller'
 
-
 let Home = function(){
     return (
     <div>
@@ -28,6 +27,5 @@ let Home = function(){
       </div>
       </div>
     )
-}
- 
- export default Home;
+} 
+export default Home;

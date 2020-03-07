@@ -3,6 +3,8 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { LinkContainer } from "react-router-bootstrap";
 
+import Icon from '../images/icon1.png';
+
 
 class NavBar extends React.Component {
     render(){
@@ -10,7 +12,7 @@ class NavBar extends React.Component {
             <Navbar expand="sm" className="navHeader" collapseOnSelect={true}>
                 <Navbar.Brand >
                     <LinkContainer to={process.env.PUBLIC_URL + '/'} className="navBrandItemText">
-                        <NavItem><img alt="IronX" src='../images/icon1.png' style={{height:'50px',width:'50px'}}/></NavItem>
+                        <NavItem><img alt="IronX" src={Icon} style={{height:'50px',width:'50px'}}/></NavItem>
                     </LinkContainer>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbar-light"/>

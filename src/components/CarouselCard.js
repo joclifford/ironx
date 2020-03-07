@@ -5,8 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import Images from '../utils/Images'
 
-
-
 let CarouselCard = function(props){
     let imagesToShow = [];
 
@@ -24,15 +22,10 @@ let CarouselCard = function(props){
                       <div >          
                         <img key={src} sizes="(min-width: 1000px) 4032px" src={src} srcset={srcset} title={title} alt={description} />
                       </div>
-                 )
-                    
+                 )    
                 }
-       
             </Carousel>
-            
         </Card>
     )
 }
-
-
 export default CarouselCard;

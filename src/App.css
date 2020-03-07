@@ -69,13 +69,13 @@
 
 /*      About Us Page Styles    */
 .BackhoeBg {
-  background-image: url("/images/backhoe.jpg");
+  background-image: url("./images/backhoe.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .BackhoeSiteBg {
-  background-image: url("/images/backhoe-site.jpg");
+  background-image: url("./images/backhoe-site.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

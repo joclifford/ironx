@@ -7,17 +7,17 @@ import ReactPageScroller from 'react-page-scroller';
 import NavBar from '../NavBar';
 import profiles from '../../utils/Profiles';
 
-
-
 let About = function(){
   AOS.init({
     mirror : true
   });
 
+  let imagePath = '../../images';
+
   return (
     <div>
       <NavBar/>
-      <ReactPageScroller renderAllPagesOnFirstRender={true}>
+      <ReactPageScroller>
           <div className="ProfilePage BackhoeBg">
                 <Card className="ProfileCard" data-aos='slide-up' data-aos-delay="5" data-aos-duration="500" border="light">
                   <h3 className="CenterText underlined">
