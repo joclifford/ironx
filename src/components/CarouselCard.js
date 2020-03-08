@@ -16,7 +16,7 @@ let CarouselCard = function(props){
     return (
         <Card >
             {props.children}
-            <Carousel showThumbs={false} infiniteLoop autoPlay interval={7500}>
+            <Carousel showThumbs={false} infiniteLoop autoPlay interval={7500} swipeable={false}>
                 { 
                   imagesToShow.map(({id, src, srcset, title, description}) =>   
                       <div >          
