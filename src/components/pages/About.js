@@ -7,6 +7,9 @@ import ReactPageScroller from 'react-page-scroller';
 import NavBar from '../NavBar';
 import profiles from '../../utils/Profiles';
 
+import { useMediaQuery } from 'react-responsive'
+
+
 let About = function(){
   AOS.init({
     mirror : true
@@ -19,7 +22,7 @@ let About = function(){
       <NavBar/>
       <ReactPageScroller>
           <div className="ProfilePage BackhoeBg">
-                <Card className="ProfileCard" data-aos='slide-up' data-aos-delay="5" data-aos-duration="500" border="light">
+                <Card className="ProfileCard">
                   <h3 className="CenterText underlined">
                     <strong>Iron</strong> e<strong>X</strong>cavating
                   </h3>

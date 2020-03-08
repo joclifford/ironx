@@ -68,17 +68,34 @@
 }
 
 /*      About Us Page Styles    */
-.BackhoeBg {
-  background-image: url("./images/backhoe.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+@media (min-width: 800px) {
+  .BackhoeBg {
+    background-image: url("./images/1920/backhoe.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .BackhoeSiteBg {
+    background-image: url("./images/1920/backhoe-site.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
 }
 
-.BackhoeSiteBg {
-  background-image: url("./images/backhoe-site.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+@media (max-width: 800px) {
+  .BackhoeBg {
+    background-image: url("./images/800/backhoe.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .BackhoeSiteBg {
+    background-image: url("./images/800/backhoe-site.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
 }
+
 
 .ProfilePage {
   display: flex;
@@ -90,10 +107,15 @@
 }
 
 .ProfileCard {
-  background-color: rgba(240, 248, 255, 0.568) !important;
-  color: black;
+  background-color: rgba(37, 44, 58,0.8) !important;
+  color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin : 20%;
+  margin:5%;
+
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: white !important;
+
 }
 
 /*      Carousel Styles   */

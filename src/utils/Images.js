@@ -1,7 +1,7 @@
 const Images = [
     {
         src : '../images/Job1/SkidSteerLevel.jpg',
-        srcset : '../images/Job1/SkidSteerLevel1567.jpg 1567w, ../images/Job1/SkidSteerLevel4032.jpg 4032w',
+        srcset : '../images/Job1/800/SkidSteerLevel.jpg 800w, ../images/Job1/1920/SkidSteerLevel.jpg 1920w',
         desc : 'Frank Goulding Leveling out the ground',
         group : 'job1'
     }, {

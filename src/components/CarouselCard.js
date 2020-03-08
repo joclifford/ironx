@@ -20,7 +20,7 @@ let CarouselCard = function(props){
                 { 
                   imagesToShow.map(({id, src, srcset, title, description}) =>   
                       <div >          
-                        <img key={src} sizes="(min-width: 1000px) 4032px" src={src} srcset={srcset} title={title} alt={description} />
+                        <img key={src} sizes="(min-width: 800px) 1920px" src={src} srcset={srcset} title={title} alt={description} />
                       </div>
                  )    
                 }
